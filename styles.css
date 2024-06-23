@@ -1,0 +1,189 @@
+/* Reset and basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent; /* Remove background color */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background: #006400; /* Dark green header */
+    color: #fff;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 50px; /* Adjust logo size as needed */
+    margin-right: 1em;
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: 0.5em;	
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #004d00; /* Darker green hover color */
+}
+
+/* Hero section styles */
+.hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.hero h2 {
+    margin: 0 0 1em 0;
+    color: #333; /* Dark color for slogan */
+}
+
+.cta {
+    background: #009933; /* Darker green button background */
+    color: #fff;
+    padding: 1em 2em;
+    text-decoration: none;
+    margin: 1em;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background: #007a29; /* Darker shade on hover */
+}
+
+/* Main sections */
+section {
+    padding: 2em 0;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+.sport {
+    margin-bottom: 2em;
+}
+
+.sport-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.sport-info img {
+    width: 50px; /* Adjust sport logo size */
+    margin-right: 1em;
+}
+
+/* League table */
+.league-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+.league-table th, .league-table td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    text-align: left;
+}
+
+.league-table th {
+    background-color: #f2f2f2;
+}
+
+/* Services section */
+.service {
+    margin-bottom: 2em;
+}
+
+/* Contact form */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+form label {
+    margin-bottom: 0.5em;
+}
+
+form input, form textarea {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #009933; /* Darker green button */
+    color: #fff;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #007a29; /* Darker shade on hover */
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0.5em 0;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5em;
+}
+
+.newsletter {
+    margin-top: 1em;
+}
+
+.newsletter input {
+    padding: 0.5em;
+    margin-right: 0.5em;
+}
